@@ -149,4 +149,13 @@ width: 100%;
   max-height:50%;
 }
 
+.schedule{
+  max-width: 730px;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 
