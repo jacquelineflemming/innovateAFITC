@@ -3,6 +3,9 @@ html, body {
 height: 100%;
 width: 100%;
 }
+body{
+  padding-top: 65px; 
+}
 /* responsive text queries */
 /* responsive text queries */
 @media screen and (max-width: 780px) {
@@ -157,5 +160,6 @@ width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
+
 
 
