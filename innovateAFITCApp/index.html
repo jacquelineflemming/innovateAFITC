@@ -19,7 +19,8 @@
 	<li><a class="page-scroll" href="http://www.eventbrite.com/e/innovateafitc-tickets-46088401650">Registration</a></li>
     <li><a class="" href="faq.html">FAQs</a></li>
     <li><a class="" href="Evaluations.html">Evaluations</a></li>
-    <li><a class="" href="http://leaderboard.innovateafitc.com">Leaderboard</a></li>
+    <!-- does not permit cross-origin framing <li><a class="" href="http://leaderboard.innovateafitc.com">Leaderboard</a></li> -->
+    <li><a class="" href="https://mighty-savannah-92071.herokuapp.com/">Leaderboard</a></li>
 	<li><a href="https://www.afitc-event.com">AFITC</a></li>
 	<li><a href="mailto:innovateAFITC@gmail.com?Subject=Hey!">Contact</a></li>
 </ul>
@@ -679,10 +680,17 @@ Copyright &copy; 2018 </b></b></b></b></b></b></p>
 </div>
 </footer>
 
-<p><b><b><b><b><b><b><!-- /footer --> <!-- include JavaScript --> <script src="bootstrap/js/jquery.js"></script> <script src="bootstrap/js/bootstrap.min.js"></script> <script src="bootstrap/js/main.js"></script> <script src="bootstrap/js/sameHeightPanels.js"></script> <script src="bootstrap/js/scrolling-nav.js"></script> <script src="bootstrap/js/jquery.easing.min.js"></script> <script type="text/javascript">
+<p><b><b><b><b><b><b><!-- /footer --> <!-- include JavaScript --> 
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<!-- Script is missing causing the site to fail <script src="bootstrap/js/main.js"></script> -->
+<script src="bootstrap/js/sameHeightPanels.js"></script>
+<script src="bootstrap/js/scrolling-nav.js"></script>
+<script src="bootstrap/js/jquery.easing.min.js"></script>
+<script type="text/javascript">
     $('.navbar-collapse ul li a').click(function(){
       $('.navbar-toggle:visible').click();
     });
-  </script> </b></b></b></b></b></b></p>
+  </script></b></b></b></b></b></b></p>
 </body>
 </html>
